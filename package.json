@@ -1,0 +1,21 @@
+{
+  "name": "bun-hono-backend",
+  "scripts": {
+    "dev": "bun run --hot src/server.ts",
+    "postinstall": "prisma generate",
+    "start": "bun run src/server.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "bullmq": "^5.45.0",
+    "hono": "^4.7.5",
+    "ioredis": "^5.6.0",
+    "prisma": "^6.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.27.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
